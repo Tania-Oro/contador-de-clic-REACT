@@ -1,0 +1,24 @@
+button{
+  font-size: 35px;
+  width: 250px;
+  height: 80px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white; /*borde del elemento*/
+  border-radius: 15px; /*radio del elemnto*/
+  margin: 5px;
+  cursor:pointer;/*cuando el cursor se coloque sobre el elemento se mostrara una manita*/
+}
+
+button:hover { /*cuando el curor esta sobre el elemento*/
+  background-color: #00471b;
+}
+
+.boton-clic{
+  background-color: #002ead;
+}
+
+.boton-reiniciar {
+  background-color: #5a01a7;
+}
